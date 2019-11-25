@@ -1,0 +1,6 @@
+
+/.idea/
+/java-automation.iml
+
+# Project exclude paths
+/target/
