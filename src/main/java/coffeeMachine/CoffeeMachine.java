@@ -27,7 +27,7 @@ public  class CoffeeMachine {
         }
     }
 
-    private static int getSelectionRepeat() {
+    public static int getSelectionRepeat() {
         System.out.println("__________________________");
         Scanner scannerRepeat = new Scanner(System.in);
         System.out.println("Another drink?");
@@ -35,7 +35,7 @@ public  class CoffeeMachine {
         return scannerRepeat.nextInt();
     }
 
-    private static void SelectYourDrink() {
+    public static void SelectYourDrink() {
         System.out.println("For 'Espresso' press - 1");
         System.out.println("For 'Americano' press - 2");
         System.out.println("For 'Americano With Milk' press - 3");
