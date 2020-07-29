@@ -5,3 +5,4 @@
 # Project exclude paths
 /target/
 /unittests.iml
+/unit-tests.iml
