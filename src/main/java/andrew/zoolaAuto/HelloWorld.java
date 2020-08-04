@@ -22,6 +22,7 @@ class Hello {
 //      //a[text()='Всі новини про коронавірус COVID-19']
 
 
+
 //     //a[text()='Верховна Рада України']
 //     //a[@rel='nofollow' and contains(text(),'Верховна Рада України')]
 //     //a[@currentmouseover = '141']
