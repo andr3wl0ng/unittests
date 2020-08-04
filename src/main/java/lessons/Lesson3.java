@@ -1,8 +1,7 @@
+package lessons;
 
-
-public class Main {
+public class Lesson3 {
     public static void main(String[] args) {
-        Main main = new Main();
 
     }
 }

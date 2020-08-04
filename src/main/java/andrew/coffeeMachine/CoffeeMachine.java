@@ -1,4 +1,4 @@
-package coffeeMachine;
+package andrew.coffeeMachine;
 import java.util.Scanner;
 
 public  class CoffeeMachine {

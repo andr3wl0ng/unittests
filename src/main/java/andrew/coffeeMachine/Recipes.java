@@ -1,4 +1,4 @@
-package coffeeMachine;
+package andrew.coffeeMachine;
 
 public class Recipes {
 
