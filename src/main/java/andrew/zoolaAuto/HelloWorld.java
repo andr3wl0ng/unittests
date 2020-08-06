@@ -6,6 +6,7 @@ class Hello {
         String str = "Hello World";
         System.out.println(str);
         //System.out.println("Hello World");
+
     }
 }
 //      Locators
