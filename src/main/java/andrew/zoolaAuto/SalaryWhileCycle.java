@@ -1,8 +1,7 @@
 package andrew.zoolaAuto;
 
-import java.util.Date;
 
-public class SalaryCycle {
+public class SalaryWhileCycle {
     public static void main(String[] args) {
         int currentSalary = 0;
         int i = 0;
