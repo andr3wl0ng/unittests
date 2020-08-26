@@ -22,9 +22,7 @@ public class IntroduceMySelf {
                 break;
             default:
                 System.out.println("Wrong selection");
-                myInfo();
         }
-
     }
 
     public static void myInfo() {
@@ -33,7 +31,7 @@ public class IntroduceMySelf {
         System.out.println("For 'All Info' press - 3");
         System.out.println("For 'Exit' press - 0");
         System.out.println("__________________________");
-        System.out.println("Select your drink and press ENTER:");
+        System.out.println("Select number and press ENTER:");
     }
 
     public static void generalInfo(){
