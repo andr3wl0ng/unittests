@@ -1,4 +1,4 @@
-package diana;
+package diana.homework_01_09;
 
 public class Rainbow {
     public static void main(String[] args) {
