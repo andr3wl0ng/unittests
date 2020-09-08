@@ -14,8 +14,5 @@ public class RunTillClose {
                 System.out.println("program is ended");
                 break;
         }
-
-
-
     }
 }
