@@ -34,7 +34,8 @@ public class Phones {
             return model;
         }
 
-        public double getOs_version() {
+        // Method name
+        public double getOsVersion() {
             return os_version;
         }
 
@@ -42,7 +43,7 @@ public class Phones {
             return display;
         }
 
-        public int getPincode() {
+        public int getPinCode() {
             return pincode;
         }
     }
