@@ -1,39 +1,40 @@
 package diana.homework_15_09;
+
 import java.time.Year;
 
 
 public abstract class Apartment implements ApartmentAbilities {
-    String housingComplex;
-    double area;
-    int roomsNumber;
-    boolean balcony;
-    int constructionYear;
+    private String housingComplex;
+    protected double area;
+    private int roomsNumber;
+    public boolean balcony;
+    protected int constructionYear;
 
     int currentYear = Year.now().getValue();
 
     public abstract void printRoomsNumber();
 
-    String getHousingComplex() {
+    public String getHousingComplex() {
         return this.housingComplex;
     }
 
-    double getArea() {
+    public double getArea() {
         return this.area;
     }
 
-    int getRoomsNumber() {
+    public int getRoomsNumber() {
         return this.roomsNumber;
     }
 
-    boolean getBalcony() {
+    public boolean getBalcony() {
         return this.balcony;
     }
 
-    int getConstructionYear() {
+    public int getConstructionYear() {
         return this.constructionYear;
     }
 
-    void setArea(double area) {
+    public void setArea(double area) {
         if (area > 20 && area < 250) {
             this.area = area;
         } else {
@@ -41,7 +42,7 @@ public abstract class Apartment implements ApartmentAbilities {
         }
     }
 
-    void setHousingComplex(String housingComplex) {
+    public void setHousingComplex(String housingComplex) {
         if (!housingComplex.isEmpty()) {
             this.housingComplex = housingComplex;
         } else {
@@ -49,7 +50,7 @@ public abstract class Apartment implements ApartmentAbilities {
         }
     }
 
-    void setRoomsNumber(int roomsNumber) {
+    public void setRoomsNumber(int roomsNumber) {
         if (roomsNumber > 0 && roomsNumber < 10) {
             this.roomsNumber = roomsNumber;
         } else {
@@ -57,13 +58,11 @@ public abstract class Apartment implements ApartmentAbilities {
         }
     }
 
-    void setBalcony(boolean balcony) {
-        this.balcony = balcony;
-    }
-
-    void setConstructionYear(int constructionYear) {
+    public void setConstructionYear(int constructionYear) {
         if (constructionYear > 1950 && constructionYear < currentYear) {
             this.constructionYear = constructionYear;
+        } else {
+            System.out.println(String.format("Wrong construction year '%s'!", constructionYear));
         }
     }
 

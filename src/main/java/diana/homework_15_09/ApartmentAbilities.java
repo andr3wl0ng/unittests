@@ -1,9 +1,9 @@
 package diana.homework_15_09;
 
-public interface ApartmentAbilities {
+interface ApartmentAbilities {
 
-    public void printHousingComplex();
+    void printHousingComplex();
 
-    public void printArea();
+    void printArea();
 
 }
