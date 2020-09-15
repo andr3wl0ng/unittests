@@ -1,0 +1,178 @@
+[1600172016.893][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 42543
+[1600172016.893][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1600172016.895][WARNING]: FromSockAddr failed on netmask
+[1600172016.895][WARNING]: FromSockAddr failed on netmask
+[1600172016.895][WARNING]: FromSockAddr failed on netmask
+[1600172017.312][INFO]: [eeeb69a49d89655563f2f1895ab15721] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/andriikazanishen/Documents/TAF_project/unittests/build/downloads/1600172015892_30900_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/andriikazanishen/Documents/TAF_project/unittests/build/downloads/1600172015892_30900_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1600172017.314][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/andriikazanishen/Documents/TAF_project/unittests/build/downloads/1600172015892_30900_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600172017.314][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600172017.314][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/3q/bxgb89p54tqcb316wz0gs7x00000gn/T/.com.google.Chrome.sHM3SH data:,
+[1600172019.307][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1600172019.315][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1600172019.359][INFO]: [eeeb69a49d89655563f2f1895ab15721] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "/var/folders/3q/bxgb89p54tqcb316wz0gs7x00000gn/T/.com.google.Chrome.sHM3SH"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61463"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "eeeb69a49d89655563f2f1895ab15721"
+}
+[1600172019.435][INFO]: [eeeb69a49d89655563f2f1895ab15721] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1600172019.435][INFO]: Waiting for pending navigations...
+[1600172019.436][INFO]: Done waiting for pending navigations. Status: ok
+[1600172019.541][INFO]: Waiting for pending navigations...
+[1600172019.542][INFO]: Done waiting for pending navigations. Status: ok
+[1600172019.542][INFO]: [eeeb69a49d89655563f2f1895ab15721] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1600172019.557][INFO]: [eeeb69a49d89655563f2f1895ab15721] COMMAND Navigate {
+   "url": "https://www.ukr.net/"
+}
+[1600172019.557][INFO]: Waiting for pending navigations...
+[1600172019.559][INFO]: Done waiting for pending navigations. Status: ok
+[1600172019.738][INFO]: Waiting for pending navigations...
+[1600172020.554][INFO]: Done waiting for pending navigations. Status: ok
+[1600172020.554][INFO]: [eeeb69a49d89655563f2f1895ab15721] RESPONSE Navigate
+[1600172059.082][INFO]: [eeeb69a49d89655563f2f1895ab15721] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='login']"
+}
+[1600172059.121][INFO]: Waiting for pending navigations...
+[1600172059.121][INFO]: Done waiting for pending navigations. Status: ok
+[1600172059.133][INFO]: Waiting for pending navigations...
+[1600172059.133][INFO]: Done waiting for pending navigations. Status: ok
+[1600172059.133][INFO]: [eeeb69a49d89655563f2f1895ab15721] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='login']"}
+  (Session info: chrome=85.0.4183.102)

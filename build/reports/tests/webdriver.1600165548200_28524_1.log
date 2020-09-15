@@ -1,0 +1,199 @@
+[1600165548.401][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 48376
+[1600165548.401][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1600165548.404][WARNING]: FromSockAddr failed on netmask
+[1600165548.404][WARNING]: FromSockAddr failed on netmask
+[1600165548.404][WARNING]: FromSockAddr failed on netmask
+[1600165548.808][INFO]: [63ad20ec06022e626e3074c83a174bcd] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/andriikazanishen/Documents/TAF_project/unittests/build/downloads/1600165547398_28524_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/andriikazanishen/Documents/TAF_project/unittests/build/downloads/1600165547398_28524_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1600165548.811][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/andriikazanishen/Documents/TAF_project/unittests/build/downloads/1600165547398_28524_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600165548.811][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600165548.812][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/3q/bxgb89p54tqcb316wz0gs7x00000gn/T/.com.google.Chrome.8faEWw data:,
+[1600165550.994][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1600165551.024][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1600165551.055][INFO]: [63ad20ec06022e626e3074c83a174bcd] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "/var/folders/3q/bxgb89p54tqcb316wz0gs7x00000gn/T/.com.google.Chrome.8faEWw"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63214"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "63ad20ec06022e626e3074c83a174bcd"
+}
+[1600165551.106][INFO]: [63ad20ec06022e626e3074c83a174bcd] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1600165551.106][INFO]: Waiting for pending navigations...
+[1600165551.108][INFO]: Done waiting for pending navigations. Status: ok
+[1600165551.215][INFO]: Waiting for pending navigations...
+[1600165551.216][INFO]: Done waiting for pending navigations. Status: ok
+[1600165551.216][INFO]: [63ad20ec06022e626e3074c83a174bcd] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1600165551.225][INFO]: [63ad20ec06022e626e3074c83a174bcd] COMMAND Navigate {
+   "url": "https://www.ukr.net/"
+}
+[1600165551.225][INFO]: Waiting for pending navigations...
+[1600165551.226][INFO]: Done waiting for pending navigations. Status: ok
+[1600165551.408][INFO]: Waiting for pending navigations...
+[1600165552.493][INFO]: Done waiting for pending navigations. Status: ok
+[1600165552.493][INFO]: [63ad20ec06022e626e3074c83a174bcd] RESPONSE Navigate
+[1600165552.630][INFO]: [63ad20ec06022e626e3074c83a174bcd] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@lc='229']"
+}
+[1600165552.787][INFO]: Waiting for pending navigations...
+[1600165553.066][INFO]: Done waiting for pending navigations. Status: ok
+[1600165554.354][INFO]: Waiting for pending navigations...
+[1600165554.435][INFO]: Done waiting for pending navigations. Status: ok
+[1600165554.435][INFO]: [63ad20ec06022e626e3074c83a174bcd] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "eac5294c-384d-4d5c-93b1-d2172d5034b7"
+}
+[1600165554.439][INFO]: [63ad20ec06022e626e3074c83a174bcd] COMMAND GetElementTagName {
+   "id": "eac5294c-384d-4d5c-93b1-d2172d5034b7"
+}
+[1600165554.440][INFO]: Waiting for pending navigations...
+[1600165554.486][INFO]: Done waiting for pending navigations. Status: ok
+[1600165554.568][INFO]: Waiting for pending navigations...
+[1600165554.579][INFO]: Done waiting for pending navigations. Status: ok
+[1600165554.579][INFO]: [63ad20ec06022e626e3074c83a174bcd] RESPONSE GetElementTagName "a"
+[1600165554.584][INFO]: [63ad20ec06022e626e3074c83a174bcd] COMMAND GetElementText {
+   "id": "eac5294c-384d-4d5c-93b1-d2172d5034b7"
+}
+[1600165554.584][INFO]: Waiting for pending navigations...
+[1600165554.589][INFO]: Done waiting for pending navigations. Status: ok
+[1600165554.608][INFO]: Waiting for pending navigations...
+[1600165554.661][INFO]: Done waiting for pending navigations. Status: ok
+[1600165554.661][INFO]: [63ad20ec06022e626e3074c83a174bcd] RESPONSE GetElementText "Головне"
+[1600165554.733][INFO]: [63ad20ec06022e626e3074c83a174bcd] COMMAND Quit {
+
+}
+[1600165554.836][INFO]: [63ad20ec06022e626e3074c83a174bcd] RESPONSE Quit

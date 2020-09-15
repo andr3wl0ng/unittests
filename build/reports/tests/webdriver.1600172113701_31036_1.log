@@ -1,0 +1,265 @@
+[1600172113.889][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 23062
+[1600172113.889][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1600172113.892][WARNING]: FromSockAddr failed on netmask
+[1600172113.892][WARNING]: FromSockAddr failed on netmask
+[1600172113.892][WARNING]: FromSockAddr failed on netmask
+[1600172114.302][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/andriikazanishen/Documents/TAF_project/unittests/build/downloads/1600172113002_31036_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/andriikazanishen/Documents/TAF_project/unittests/build/downloads/1600172113002_31036_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1600172114.305][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/andriikazanishen/Documents/TAF_project/unittests/build/downloads/1600172113002_31036_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600172114.305][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600172114.306][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/3q/bxgb89p54tqcb316wz0gs7x00000gn/T/.com.google.Chrome.TON3DX data:,
+[1600172116.452][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1600172116.462][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1600172116.511][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "/var/folders/3q/bxgb89p54tqcb316wz0gs7x00000gn/T/.com.google.Chrome.TON3DX"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62078"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "39490794420ee0439b2329146418e7c4"
+}
+[1600172116.584][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1600172116.584][INFO]: Waiting for pending navigations...
+[1600172116.585][INFO]: Done waiting for pending navigations. Status: ok
+[1600172116.690][INFO]: Waiting for pending navigations...
+[1600172116.691][INFO]: Done waiting for pending navigations. Status: ok
+[1600172116.691][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1600172116.703][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND Navigate {
+   "url": "https://www.ukr.net/"
+}
+[1600172116.703][INFO]: Waiting for pending navigations...
+[1600172116.704][INFO]: Done waiting for pending navigations. Status: ok
+[1600172116.881][INFO]: Waiting for pending navigations...
+[1600172117.886][INFO]: Done waiting for pending navigations. Status: ok
+[1600172117.887][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE Navigate
+[1600172146.674][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='login']"
+}
+[1600172146.692][INFO]: Waiting for pending navigations...
+[1600172146.693][INFO]: Done waiting for pending navigations. Status: ok
+[1600172146.710][INFO]: Waiting for pending navigations...
+[1600172146.712][INFO]: Done waiting for pending navigations. Status: ok
+[1600172146.712][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='login']"}
+  (Session info: chrome=85.0.4183.102)
+[1600172280.258][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//iframe[@name='mail widget']"
+}
+[1600172280.258][INFO]: Waiting for pending navigations...
+[1600172280.266][INFO]: Done waiting for pending navigations. Status: ok
+[1600172280.281][INFO]: Waiting for pending navigations...
+[1600172280.282][INFO]: Done waiting for pending navigations. Status: ok
+[1600172280.282][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "16069c3d-b3f3-44d7-9a9c-54e26be9d1a9"
+}
+[1600172280.290][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND SwitchToFrame {
+   "id": {
+      "ELEMENT": "16069c3d-b3f3-44d7-9a9c-54e26be9d1a9",
+      "element-6066-11e4-a52e-4f735466cecf": "16069c3d-b3f3-44d7-9a9c-54e26be9d1a9"
+   }
+}
+[1600172280.290][INFO]: Waiting for pending navigations...
+[1600172280.291][INFO]: Done waiting for pending navigations. Status: ok
+[1600172280.321][INFO]: Waiting for pending navigations...
+[1600172280.322][INFO]: Done waiting for pending navigations. Status: ok
+[1600172280.322][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE SwitchToFrame
+[1600172290.184][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='login']"
+}
+[1600172290.184][INFO]: Waiting for pending navigations...
+[1600172290.185][INFO]: Done waiting for pending navigations. Status: ok
+[1600172290.200][INFO]: Waiting for pending navigations...
+[1600172290.202][INFO]: Done waiting for pending navigations. Status: ok
+[1600172290.202][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9b08b4c2-51c2-4a35-a367-ee4dc5e16ae7"
+}
+[1600172290.294][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "9b08b4c2-51c2-4a35-a367-ee4dc5e16ae7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600172290.294][INFO]: Waiting for pending navigations...
+[1600172290.295][INFO]: Done waiting for pending navigations. Status: ok
+[1600172290.317][INFO]: Waiting for pending navigations...
+[1600172290.318][INFO]: Done waiting for pending navigations. Status: ok
+[1600172290.319][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE ExecuteScript true
+[1600172294.198][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='login']"
+}
+[1600172294.198][INFO]: Waiting for pending navigations...
+[1600172294.203][INFO]: Done waiting for pending navigations. Status: ok
+[1600172294.216][INFO]: Waiting for pending navigations...
+[1600172294.217][INFO]: Done waiting for pending navigations. Status: ok
+[1600172294.217][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9b08b4c2-51c2-4a35-a367-ee4dc5e16ae7"
+}
+[1600172294.233][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "9b08b4c2-51c2-4a35-a367-ee4dc5e16ae7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600172294.233][INFO]: Waiting for pending navigations...
+[1600172294.234][INFO]: Done waiting for pending navigations. Status: ok
+[1600172294.248][INFO]: Waiting for pending navigations...
+[1600172294.249][INFO]: Done waiting for pending navigations. Status: ok
+[1600172294.249][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE ExecuteScript true
+[1600172294.257][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND ClearElement {
+   "id": "9b08b4c2-51c2-4a35-a367-ee4dc5e16ae7"
+}
+[1600172294.258][INFO]: Waiting for pending navigations...
+[1600172294.262][INFO]: Done waiting for pending navigations. Status: ok
+[1600172294.327][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1600172294.344][INFO]: Waiting for pending navigations...
+[1600172294.346][INFO]: Done waiting for pending navigations. Status: ok
+[1600172294.346][INFO]: [39490794420ee0439b2329146418e7c4] RESPONSE ClearElement
+[1600172294.355][INFO]: [39490794420ee0439b2329146418e7c4] COMMAND TypeElement {
+   "id": "9b08b4c2-51c2-4a35-a367-ee4dc5e16ae7",
+   "text": "loginValue",
+   "value": [ "l", "o", "g", "i", "n", "V", "a", "l", "u", "e" ]
+}
+[1600172294.355][INFO]: Waiting for pending navigations...
+[1600172294.356][INFO]: Done waiting for pending navigations. Status: ok
