@@ -1,4 +1,4 @@
-package andrew.zoolaAuto;
+package andrew.zoolaAuto.homeWork3;
 
 public class ArrayStringDisplayBackwards {
     public static void main(String[] args) {

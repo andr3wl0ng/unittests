@@ -1,4 +1,4 @@
-package andrew.zoolaAuto;
+package andrew.zoolaAuto.homeWork1;
 
 
 class Hello {

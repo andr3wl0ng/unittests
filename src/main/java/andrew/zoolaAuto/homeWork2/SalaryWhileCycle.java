@@ -1,4 +1,4 @@
-package andrew.zoolaAuto;
+package andrew.zoolaAuto.homeWork2;
 
 
 public class SalaryWhileCycle {

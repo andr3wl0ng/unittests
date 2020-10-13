@@ -1,4 +1,4 @@
-package andrew.zoolaAuto;
+package andrew.zoolaAuto.homeWork4;
 
 public enum Phone {
     Iphone7Plus("Iphone", "7 Plus", "IOS", 14.0, 5.5, 123456),
